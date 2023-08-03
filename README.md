@@ -1,5 +1,7 @@
 This is my first piece of voluntary work.
 
+<img width="702" alt="jedis for GitHub" src="https://github.com/Fiona-1981/jon-edis-osteopath/assets/82163486/f55ea12d-ee1e-49f7-bfd8-55100e216937">
+
 Since I announced to people that I'd done a software engineering\
 bootcamp, there has been a handful of requests for websites, which\
 although isn't my ultimate aim (I like SQL too much), it is\

@@ -1,5 +1,7 @@
 body {
   background-image: linear-gradient(to right, lightgray , azure);
+  background-size: 65%;
+  background-position: center;
 }
 
 h1 {
@@ -47,7 +49,7 @@ li {
   text-align: center;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-color: white;
+  border-color: darkgray;
 }
 
 .information {

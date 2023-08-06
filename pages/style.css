@@ -1,9 +1,3 @@
-body {
-  background-image: linear-gradient(to right, lightgray , azure);
-  background-size: 65%;
-  background-position: center;
-}
-
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -41,6 +35,7 @@ li {
 
 .header-brand {
   padding-left: 30%;
+  margin-bottom: 70px;
 }
 
 .navbar {
@@ -54,11 +49,12 @@ li {
 
 .information {
   padding-left: 30%;
+  margin-bottom: 70px;
 }
 
 .page-footer {
-  margin: 60px;
   text-align: center;
+  color: black;
 }
 
 .fa {

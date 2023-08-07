@@ -17,6 +17,7 @@ a:hover {
 
 .flex-container {
   display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
@@ -27,6 +28,7 @@ a:hover {
 
 .cards {
   min-height: 200px;
+  min-width: 400px;
   border-style: outset;
   border-width: 1px;
   border-radius: 5px;

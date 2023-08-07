@@ -8,6 +8,11 @@ footer {
 
 a {
   text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  opacity: 0.6;
 }
 
 .flex-container {
@@ -29,6 +34,15 @@ a {
 
 .cards:hover {
   opacity: 0.6;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+li.menu-item {
+  display: inline-block;
+  padding-right: 10px;
 }
 
 .fa {

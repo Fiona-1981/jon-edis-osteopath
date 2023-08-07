@@ -6,6 +6,10 @@ footer {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex-container {
   display: flex;
 }
@@ -17,7 +21,6 @@ footer {
 }
 
 .cards {
-  max-width: 600px;
   min-height: 200px;
   border-style: outset;
   border-width: 1px;

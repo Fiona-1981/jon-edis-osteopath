@@ -17,22 +17,25 @@ a:hover {
 
 .flex-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  min-height: 300px;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 1000px;
 }
 
 @media (max-width: 800px) {
   .flex-container {
-    flex-direction: column;
+    width: 95%;
   }
-}
-
-.cards {
-  min-height: 200px;
-  min-width: 400px;
-  border-style: outset;
-  border-width: 1px;
-  border-radius: 5px;
+  .cards {
+    width: 95%;
+  }
 }
 
 .cards:hover {

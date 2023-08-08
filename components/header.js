@@ -42,7 +42,7 @@ class Header extends HTMLElement {
         Email: <a href="mailto:jonedisosteopath@gmail.com">jonedisosteopath@gmail.com</a>
         <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
         <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a>
-        <a href="index.html"><h1>Jonathan Edis Osteopath</h1>
+        <a href="index.html"><h1><img src="../logos/je-logo.gif" alt="Jonathan Edis Logo">Jonathan Edis Osteopath</h1>
         <h2>Osteopathy & Osteopathic Lecturing</h2></a>
       </header>
     `;

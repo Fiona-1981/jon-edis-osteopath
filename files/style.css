@@ -2,23 +2,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
+/* header {
   text-align: center;
-}
-
-.flex-header {
-  display: flex;
-}
-
-.flex-header-left {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.flex-header-right {
-  display: flex;
-  justify-content: flex-end;
-}
+} */
 
 footer {
   text-align: center;

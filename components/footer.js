@@ -16,9 +16,8 @@ class Footer extends HTMLElement {
       } 
 
       .fa {
-        padding: 10px;
-        font-size: 30px;
-        width: 30px;
+        font-size: 15px;
+        width: 20px;
         text-align: center;
         text-decoration: none;
       }

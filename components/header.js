@@ -38,10 +38,7 @@ class Header extends HTMLElement {
         }
 
         .top-header {
-          display: flex;
-          justify-content: flex-end;
-          justify-content: space-around;
-          padding: 10px;
+          margin-left: 35px;
         }
 
         .main-header {
@@ -49,10 +46,13 @@ class Header extends HTMLElement {
         }
       </style>
       <header>
-        <div class="top-header"><div>Phone: 07871 836785
-        Email: <a href="mailto:jonedisosteopath@gmail.com">jonedisosteopath@gmail.com</a></div>
-        <div><a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a></div></div>
+        <div class="top-header">
+        Phone: 07871 836785
+        Email: <a href="mailto:jonedisosteopath@gmail.com">jonedisosteopath@gmail.com</a>
+        <p>
+        <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a></div>
+        </p>
         <div class="main-header">
         <a href="index.html"><h1><img src="../logos/je-logo.gif" alt="Jonathan Edis Logo">Jonathan Edis Osteopath</h1>
         <h2>Osteopathy & Osteopathic Lecturing</h2></a></div>

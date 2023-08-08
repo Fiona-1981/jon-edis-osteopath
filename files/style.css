@@ -1,5 +1,23 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
   text-align: center;
+}
+
+.flex-header {
+  display: flex;
+}
+
+.flex-header-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-header-right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer {
@@ -25,8 +43,10 @@ a:hover {
   min-height: 300px;
   border-style: outset;
   border-width: 1px;
-  border-radius: 5px;
   width: 1000px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to bottom right, rgb(250, 244, 236), rgb(222, 222, 222));
 }
 
 @media (max-width: 800px) {
@@ -52,13 +72,11 @@ li.menu-item {
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 50px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 5px;
 }
 
 .fa:hover {

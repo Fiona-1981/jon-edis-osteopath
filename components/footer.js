@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
       <style>
       a {
         text-decoration: none;
-        color:black;
+        color:white;
       }
       
       a:hover {
@@ -41,8 +41,10 @@ class Footer extends HTMLElement {
       <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a>
       <div>
         <p>Copyright Jonathan Edis 2023</p>
-        <img src="../logos/registered-mark-4616.jpeg" alt="I am registered with the General Osteopathic Council.">
-        <p>Website hand made by Fiona Wiggins</p>
+        <a href="https://www.osteopathy.org.uk/register-search/registrants/5715-mr-jonathan-edis/" target="_blank"><img src="../logos/registered-mark-4616.jpeg" alt="I am registered with the General Osteopathic Council."></a>
+        <p>
+        <a href="mailto:fiona@fionawiggins.co.uk">Website hand made by Fiona Wiggins</a>
+        </p>
       </div>
     </footer>
     `;

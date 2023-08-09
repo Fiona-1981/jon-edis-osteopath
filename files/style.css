@@ -1,5 +1,7 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:gray;
+  color: white;
 }
 
 .main-article {
@@ -13,7 +15,7 @@ footer {
 
 a {
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 a:hover {
@@ -32,8 +34,8 @@ a:hover {
   border-width: 1px;
   width: 1000px;
   margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: linear-gradient(to bottom right, rgb(250, 244, 236), rgb(222, 222, 222));
+  color: gray;
+  background-image: linear-gradient(to bottom right, white, rgba(91, 133, 83, 0.156));
 }
 
 @media (max-width: 800px) {

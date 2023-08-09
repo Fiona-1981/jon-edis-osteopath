@@ -42,7 +42,7 @@ class Footer extends HTMLElement {
       <div>
         <p>Copyright Jonathan Edis 2023</p>
         <img src="../logos/registered-mark-4616.jpeg" alt="I am registered with the General Osteopathic Council.">
-        <p>Website by Fiona Wiggins</p>
+        <p>Website hand made by Fiona Wiggins</p>
       </div>
     </footer>
     `;

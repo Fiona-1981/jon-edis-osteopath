@@ -3,7 +3,7 @@ body {
 }
 
 .main-article {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -49,6 +49,26 @@ a:hover {
   opacity: 0.6;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure img {
+  width: 180px;
+}
+
+figcaption {
+  text-align: center;
+  width: 180px;
+}
+
 ul.menu {
   list-style: none;
 }
@@ -56,26 +76,4 @@ ul.menu {
 li.menu-item {
   display: inline-block;
   padding-right: 10px;
-}
-
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.6;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
 }

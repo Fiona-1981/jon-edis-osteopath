@@ -35,6 +35,10 @@ class Footer extends HTMLElement {
         background: #125688;
         color: white;
       }
+
+      footer {
+        padding: 50px;
+      }
       </style>
       <footer>
       <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>

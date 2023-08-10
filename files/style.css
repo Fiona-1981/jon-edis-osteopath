@@ -7,6 +7,7 @@ body {
 .main-article {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 40px;
 }
 
 footer {
@@ -34,8 +35,8 @@ a:hover {
   border-width: 1px;
   width: 1000px;
   margin: 10px;
-  color: gray;
-  background-image: linear-gradient(to bottom right, white, rgba(91, 133, 83, 0.156));
+  color: white;
+  background-image: radial-gradient(rgb(167, 220, 171), rgb(13, 124, 28));
 }
 
 @media (max-width: 800px) {

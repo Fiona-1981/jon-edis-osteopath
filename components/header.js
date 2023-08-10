@@ -48,6 +48,10 @@ class Header extends HTMLElement {
         .main-header {
           text-align: center;
         }
+
+        header {
+          padding: 30px;
+        }
       </style>
       <header>
         <div class="top-header">

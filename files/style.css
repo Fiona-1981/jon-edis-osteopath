@@ -85,15 +85,6 @@ li.menu-item {
   padding-right: 10px;
 }
 
-a {
-  text-decoration: none;
-  color:black;
-}
-
-a:hover {
-  opacity: 0.6;
-} 
-
 .no-hover:hover {
   opacity: 1;
 }
@@ -130,4 +121,38 @@ a:hover {
 
 header {
   padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  opacity: 0.6;
+} 
+
+.fa {
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer {
+  padding: 50px;
 }

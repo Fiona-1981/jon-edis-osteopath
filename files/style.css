@@ -84,3 +84,50 @@ li.menu-item {
   display: inline-block;
   padding-right: 10px;
 }
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  opacity: 0.6;
+} 
+
+.no-hover:hover {
+  opacity: 1;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.top-header {
+  margin-left: 35px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+}

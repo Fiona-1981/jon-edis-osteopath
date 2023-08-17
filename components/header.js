@@ -63,7 +63,7 @@ class Header extends HTMLElement {
         </div>
         </p>
         <div class="main-header">
-        <a class="no-hover" href="index.html">
+        <a class="no-hover" href="../index.html">
         <img src="../logos/je-logo.gif" alt="Jonathan Edis Logo">
         <h1>Jonathan Edis Osteopath</h1>
         <h2>Osteopathy & Osteopathic Lecturing</h2>

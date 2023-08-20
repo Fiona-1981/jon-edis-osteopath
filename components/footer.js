@@ -6,39 +6,39 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <style>
-      a {
-        text-decoration: none;
-        color:white;
-      }
+        a {
+          text-decoration: none;
+          color:gray;
+        }
       
-      a:hover {
-        opacity: 0.6;
-      } 
+        a:hover {
+          opacity: 0.6;
+        } 
 
-      .fa {
-        font-size: 15px;
-        width: 20px;
-        text-align: center;
-        text-decoration: none;
-      }
-      
-      .fa:hover {
-        opacity: 0.6;
-      }
-      
-      .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
-      
-      .fa-instagram {
-        background: #125688;
-        color: white;
-      }
+        .fa {
+          font-size: 15px;
+          width: 20px;
+          text-align: center;
+          text-decoration: none;
+        }
+        
+        .fa:hover {
+          opacity: 0.6;
+        }
+        
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+        
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
 
-      footer {
-        padding: 50px;
-      }
+        footer {
+          padding: 50px;
+        }
       </style>
       <footer>
       <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>

@@ -1,7 +1,7 @@
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color:gray;
-  color: white;
+  background-color:white;
+  color: gray;
 }
 
 .main-article {
@@ -16,7 +16,7 @@ footer {
 
 a {
   text-decoration: none;
-  color:white;
+  color:gray;
 }
 
 a:hover {
@@ -35,8 +35,9 @@ a:hover {
   border-width: 1px;
   width: 1000px;
   margin: 10px;
-  color: white;
-  background-image: radial-gradient(rgb(167, 220, 171), gray);
+  color: gray;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-width: 800px) {
@@ -56,6 +57,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
 }
 
 figure {
@@ -74,6 +77,7 @@ figure img {
 figcaption {
   text-align: center;
   width: 180px;
+  color: black;
 }
 
 ul.menu {
@@ -125,7 +129,7 @@ header {
 
 a {
   text-decoration: none;
-  color:white;
+  color:gray;
 }
 
 a:hover {
@@ -155,4 +159,8 @@ a:hover {
 
 footer {
   padding: 50px;
+}
+
+.visible-links {
+  color:rgb(40, 40, 116);
 }

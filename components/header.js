@@ -56,7 +56,7 @@ class Header extends HTMLElement {
       <header>
         <div class="top-header">
         Phone: 07871 836785
-        Email: <a href="mailto:jonedisosteopath@gmail.com">jonedisosteopath@gmail.com</a>
+        <a href="mailto:jonedisosteopath@gmail.com">Email: jonedisosteopath@gmail.com</a>
         <p>
         <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
         <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a>

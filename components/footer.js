@@ -41,6 +41,15 @@ class Footer extends HTMLElement {
         }
       </style>
       <footer>
+      <ul class="menu">
+        <li class="menu-item"><a href="../index.html">Back to home</a></li>
+        <li class="menu-item"><a href="osteopathy-greenwich.html">Osteopathy in Greenwich</a></li>
+        <li class="menu-item"><a href="osteopathic-lecturing.html">Osteopathic Lecturing</a></li>
+        <li class="menu-item"><a href="what-is.html">What is Osteopathy?</a></li>
+        <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+        <li class="menu-item"><a href="about-me.html">About Me</a></li>
+        <li class="menu-item"><a href="contact.html">Contact</a></li>
+      </ul>
       <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
       <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a>
       <div>

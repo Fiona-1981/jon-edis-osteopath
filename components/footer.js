@@ -6,38 +6,9 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <style>
-        a {
-          text-decoration: none;
-          color:gray;
-        }
-      
-        a:hover {
-          opacity: 0.6;
-        } 
-
-        .fa {
-          font-size: 15px;
-          width: 20px;
-          text-align: center;
-          text-decoration: none;
-        }
-        
-        .fa:hover {
-          opacity: 0.6;
-        }
-        
-        .fa-facebook {
-          background: #3B5998;
-          color: white;
-        }
-        
-        .fa-instagram {
-          background: #125688;
-          color: white;
-        }
-
         footer {
           padding: 50px;
+          background-color:gray;
         }
       </style>
       <footer>

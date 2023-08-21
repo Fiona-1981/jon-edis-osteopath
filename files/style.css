@@ -47,6 +47,9 @@ a:hover {
   .cards {
     width: 95%;
   }
+  .menu {
+    display:grid;
+  }
 }
 
 .cards:hover {

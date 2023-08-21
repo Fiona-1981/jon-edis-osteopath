@@ -11,10 +11,6 @@ class Header extends HTMLElement {
           color:black;
         }
         
-        a:hover {
-          opacity: 0.6;
-        } 
-
         .no-hover:hover {
           opacity: 1;
         }
@@ -52,6 +48,10 @@ class Header extends HTMLElement {
         header {
           padding: 30px;
         }
+
+        a:hover {
+          opacity: 0.6;
+        }
       </style>
       <header>
         <div class="top-header">
@@ -70,7 +70,7 @@ class Header extends HTMLElement {
         </a>
         </div>
         <ul class="menu">
-          <li class="menu-item"><a href="../index.html">Back to home</a></li>
+          <li class="menu-item"><a href="../index.html">Home</a></li>
           <li class="menu-item"><a href="osteopathy-greenwich.html">Osteopathy in Greenwich</a></li>
           <li class="menu-item"><a href="osteopathic-lecturing.html">Osteopathic Lecturing</a></li>
           <li class="menu-item"><a href="what-is.html">What is Osteopathy?</a></li>

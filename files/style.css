@@ -1,7 +1,12 @@
-body {
+/* body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color:white;
   color: black;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 .logo {

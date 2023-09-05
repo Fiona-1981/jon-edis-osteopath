@@ -30,13 +30,16 @@
           <h1>JONATHAN EDIS OSTEOPATH</h1>
           <h4>Osteopathy & Osteopathic Lecturing</h4>
         </a>
-        <ul class="menu">
+        <ul class="menu" id="myTopnav">
           <li class="menu-item"><a href="./files/osteopathy-greenwich.html">Osteopathy in Greenwich</a></li>
           <li class="menu-item"><a href="./files/osteopathic-lecturing.html">Osteopathic Lecturing</a></li>
           <li class="menu-item"><a href="./files/what-is.html">What is Osteopathy?</a></li>
           <li class="menu-item"><a href="./files/about-me.html">About Me</a></li>
           <li class="menu-item"><a href="./files/gallery.html">Gallery</a></li>
           <li class="menu-item"><a href="./files/contact.html">Contact</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </ul>
       </div>
 
@@ -76,7 +79,16 @@
           <h4>Contact Me</h4>
         </a>
       </div>  
-
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "menu") {
+            x.className += " responsive";
+          } else {
+            x.className = "menu";
+          }
+        }
+        </script>
       <footer>
         <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
         <a href="https://www.instagram.com/jonedis_osteo/" class="fa fa-instagram" target="_blank"></a>

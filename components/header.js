@@ -31,6 +31,35 @@ class Header extends HTMLElement {
         a:hover {
           opacity: 0.6;
         }
+
+        .menu .icon {
+          display: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+          .menu a {
+            display: none;
+          }
+          .menu a.icon {
+            float: right;
+            display: block;
+          }
+        }
+        
+        @media screen and (max-width: 600px) {
+          .menu.responsive {position: relative;}
+          .menu.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        
+          .menu.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+        }
       </style>
       <header>
         <div class="top-header">
@@ -47,7 +76,7 @@ class Header extends HTMLElement {
         <h1>JONATHAN EDIS OSTEOPATH</h1>
         <h2>Osteopathy & Osteopathic Lecturing</h2>
         </a>
-        <ul class="menu">
+        <ul class="menu" id="myTopnav">
         <li class="menu-item"><a href="../index.html">Home</a></li>
         <li class="menu-item"><a href="osteopathy-greenwich.html">Osteopathy in Greenwich</a></li>
         <li class="menu-item"><a href="osteopathic-lecturing.html">Osteopathic Lecturing</a></li>
@@ -55,6 +84,9 @@ class Header extends HTMLElement {
         <li class="menu-item"><a href="gallery.html">Gallery</a></li>
         <li class="menu-item"><a href="about-me.html">About Me</a></li>
         <li class="menu-item"><a href="contact.html">Contact</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
       </ul>
         </div>
 

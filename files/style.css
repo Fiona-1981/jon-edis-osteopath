@@ -1,9 +1,3 @@
-/* body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color:white;
-  color: black;
-} */
-
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -46,7 +40,7 @@ a:hover {
   flex-direction: column;
 }
 
-.cards {
+.cards-greenwich {
   height: 300px;
   border-style: outset;
   border-width: 0px;
@@ -61,11 +55,91 @@ a:hover {
   background-size: contain;
 }
 
+.cards-about {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.cards-what-is {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/at-still.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.cards-gallery {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../lecturing-images/wa0014.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.cards-lecturing {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../lecturing-images/italy-2016.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.cards-contact {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/northeast-cutty.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
 @media (max-width: 800px) {
   .flex-container {
     width: 95%;
   }
-  .cards {
+  .cards-greenwich,
+  .cards-about,
+  .cards-contact,
+  .cards-gallery,
+  .cards-lecturing,
+  .cards-what-is {
     width: 95%;
   }
   .menu {

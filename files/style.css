@@ -53,6 +53,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 .cards-about {
@@ -68,6 +70,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 .cards-what-is {
@@ -83,6 +87,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 .cards-gallery {
@@ -98,6 +104,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 .cards-lecturing {
@@ -113,6 +121,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 .cards-contact {
@@ -128,6 +138,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  /* opacity: 0.9; */
+  /* filter: sepia(50%); */
 }
 
 @media (max-width: 800px) {

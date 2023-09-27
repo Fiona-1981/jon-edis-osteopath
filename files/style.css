@@ -53,8 +53,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 .cards-about {
@@ -70,8 +68,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 .cards-what-is {
@@ -87,8 +83,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 .cards-gallery {
@@ -104,8 +98,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 .cards-lecturing {
@@ -121,8 +113,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 .cards-contact {
@@ -138,8 +128,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  /* opacity: 0.9; */
-  /* filter: sepia(50%); */
 }
 
 @media (max-width: 800px) {
@@ -222,7 +210,11 @@ ul.menu {
   }
 
 @media screen and (max-width: 600px) {
-  .cards-about, .cards-contact, .cards-gallery, .cards-greenwich, .cards-lecturing,
+  .cards-about, 
+  .cards-contact, 
+  .cards-gallery, 
+  .cards-greenwich, 
+  .cards-lecturing,
   .cards-what-is {
     background-image: none;
   }
@@ -319,4 +311,8 @@ footer {
 
 .visible-links {
   color:rgb(88, 88, 211);
+}
+
+p {
+  padding: 5px;
 }

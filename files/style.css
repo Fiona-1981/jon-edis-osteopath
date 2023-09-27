@@ -206,6 +206,8 @@ ul.menu {
   .menu a.icon {
     float: right;
     display: block;
+    font-size: 30px;
+    
   }
 }
 
@@ -215,7 +217,16 @@ ul.menu {
     position: absolute;
     right: 0;
     top: 0;
+    transform: rotate(-90deg);
+    transition: ease-in 0.3s;
   }
+
+@media screen and (max-width: 600px) {
+  .cards-about, .cards-contact, .cards-gallery, .cards-greenwich, .cards-lecturing,
+  .cards-what-is {
+    background-image: none;
+  }
+}
 
   .menu.responsive a {
     float: none;

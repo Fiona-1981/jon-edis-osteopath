@@ -172,6 +172,12 @@ figure img {
   object-fit: cover;
 }
 
+figure img:hover {
+  transform: scale(2.5);
+  transition: ease-in 0.3s;
+  
+}
+
 figcaption {
   text-align: center;
   width: 180px;

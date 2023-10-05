@@ -175,7 +175,6 @@ figure img {
 figure img:hover {
   transform: scale(2.5);
   transition: ease-in 0.3s;
-  
 }
 
 figcaption {

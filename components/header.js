@@ -63,7 +63,7 @@ class Header extends HTMLElement {
       </style>
       <header>
         <div class="top-header">
-        Phone: 07871 836785
+        Phone: +44 (0)7871 836785
         Email: <a href="mailto:jonedisosteopath@gmail.com">jonedisosteopath@gmail.com</a>
         <p>
         <a href="https://www.facebook.com/jonathanedisosteopath" class="fa fa-facebook" target="_blank"></a>
@@ -83,7 +83,7 @@ class Header extends HTMLElement {
         <li class="menu-item"><a href="what-is.html">What is Osteopathy?</a></li>
         <li class="menu-item"><a href="gallery.html">Gallery</a></li>
         <li class="menu-item"><a href="about-me.html">About Me</a></li>
-        <li class="menu-item"><a href="contact.html">Contact</a></li>
+        <li class="menu-item"><a href="contact.html" style="font-weight: bold;">BOOK NOW</a></li>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>

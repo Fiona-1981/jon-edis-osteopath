@@ -80,10 +80,10 @@ class Header extends HTMLElement {
         <li class="menu-item"><a href="../index.html">Home</a></li>
         <li class="menu-item"><a href="osteopathy-greenwich.html">Osteopathy in Greenwich</a></li>
         <li class="menu-item"><a href="osteopathic-lecturing.html">Osteopathic Lecturing</a></li>
-        <li class="menu-item"><a href="what-is.html">What is Osteopathy?</a></li>
+        
         <li class="menu-item"><a href="gallery.html">Gallery</a></li>
-        <li class="menu-item"><a href="about-me.html">About Me</a></li>
-        <li class="menu-item"><a href="contact.html" style="font-weight: bold;">BOOK NOW</a></li>
+        
+        <li class="menu-item"><a href="contact.html" style="font-weight: bold; text-decoration: underline;">BOOK NOW</a></li>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>

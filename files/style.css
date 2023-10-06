@@ -56,10 +56,10 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../lecturing-images/wa0026-crop.jpg");
+  /* background-image: url("../lecturing-images/wa0026-crop.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: contain; */
 }
 
 /* .cards-about {
@@ -101,10 +101,10 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../lecturing-images/wa0014-crop.jpg");
+  /* background-image: url("../lecturing-images/wa0014-crop.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: contain; */
 }
 
 .cards-lecturing {
@@ -116,10 +116,10 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../lecturing-images/italy-2023-1.jpg");
+  /* background-image: url("../lecturing-images/italy-2023-1.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: contain; */
 }
 
 .cards-contact {
@@ -131,11 +131,24 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../images/northeast-cutty.jpg");
+  /* background-image: url("../images/northeast-cutty.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: contain; */
 }
+
+/* @media screen and (max-width: 600px) {
+  .cards-about, 
+  .cards-contact, 
+  .cards-gallery, 
+  .cards-greenwich, 
+  .cards-lecturing,
+  .cards-what-is {
+    background-image: url("../images/northeast-cutty.jpg");
+    background-size: 5cm;
+    
+  }
+} */
 
 @media (max-width: 800px) {
   .flex-container {
@@ -222,16 +235,6 @@ ul.menu {
     transition: ease-in 0.3s;
   }
 
-@media screen and (max-width: 600px) {
-  .cards-about, 
-  .cards-contact, 
-  .cards-gallery, 
-  .cards-greenwich, 
-  .cards-lecturing,
-  .cards-what-is {
-    background-image: none;
-  }
-}
 
   .menu.responsive a {
     float: none;
@@ -320,10 +323,6 @@ footer {
   padding: 50px;
   background-color: gray;
   color: white;
-}
-
-.visible-links {
-  color:rgb(88, 88, 211);
 }
 
 p {

@@ -32,12 +32,13 @@ a {
   color:white;
 }
 
-a:hover {
-  opacity: 0.6;
+a.link-on-white {
+  text-decoration: underline;
+  color:black;
 }
 
-.contact-page-email {
-  color: black;
+a:hover {
+  opacity: 0.6;
 }
 
 .flex-container {
@@ -50,7 +51,7 @@ a:hover {
   height: 300px;
   border-style: outset;
   border-width: 0px;
-  width: 1000px;
+  width: 900px;
   margin: 10px;
   color:black;
   background-color:white;
@@ -95,7 +96,7 @@ a:hover {
   height: 300px;
   border-style: outset;
   border-width: 0px;
-  width: 1000px;
+  width: 900px;
   margin: 10px;
   color:black;
   background-color:white;
@@ -110,7 +111,7 @@ a:hover {
   height: 300px;
   border-style: outset;
   border-width: 0px;
-  width: 1000px;
+  width: 900px;
   margin: 10px;
   color:black;
   background-color:white;
@@ -125,7 +126,7 @@ a:hover {
   height: 300px;
   border-style: outset;
   border-width: 0px;
-  width: 1000px;
+  width: 900px;
   margin: 10px;
   color:black;
   background-color:white;

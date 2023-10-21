@@ -48,7 +48,7 @@ a:hover {
 }
 
 .cards-greenwich {
-  height: 300px;
+  height: auto;
   border-style: outset;
   border-width: 0px;
   width: 900px;
@@ -93,7 +93,7 @@ a:hover {
 } */
 
 .cards-gallery {
-  height: 300px;
+  height: auto;
   border-style: outset;
   border-width: 0px;
   width: 900px;
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .cards-lecturing {
-  height: 300px;
+  height: auto;
   border-style: outset;
   border-width: 0px;
   width: 900px;
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .cards-contact {
-  height: 300px;
+  height: auto;
   border-style: outset;
   border-width: 0px;
   width: 900px;

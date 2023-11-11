@@ -3,10 +3,7 @@
 
 
 
-Link to draft site: https://unrivaled-bavarois-8e748b.netlify.app/index.html
 
-This is my first piece of voluntary work and a screenshot of how it looked\
-at the inception!
 
 <img width="702" alt="jedis for GitHub" src="https://github.com/Fiona-1981/jon-edis-osteopath/assets/82163486/f55ea12d-ee1e-49f7-bfd8-55100e216937">
 

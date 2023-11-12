@@ -180,13 +180,25 @@ a:hover {
 }
 
 @media screen and (max-width: 650px) {
-  .large-logos, .portrait-large {
+  .large-logos {
     display: none;
   }
   }
 
 @media screen and (min-width: 651px) {
-  .small-logos, .portrait-small {
+  .small-logos {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .portrait-large {
+    display: none;
+  }
+  }
+
+@media screen and (min-width: 651px) {
+  .portrait-small {
     display: none;
   }
 }

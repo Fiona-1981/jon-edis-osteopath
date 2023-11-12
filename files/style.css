@@ -178,30 +178,30 @@ a:hover {
   background-color: white;
   padding: 10px;
 }
-
-@media screen and (max-width: 650px) {
+/* 
+@media (max-width: 650px) {
   .large-logos {
     display: none;
   }
   }
 
-@media screen and (min-width: 651px) {
+@media (min-width: 651px) {
   .small-logos {
     display: none;
   }
-}
+} */
 
-@media screen and (max-width: 650px) {
+/* @media (max-width: 650px) {
   .portrait-large {
     display: none;
   }
   }
 
-@media screen and (min-width: 651px) {
+@media (min-width: 651px) {
   .portrait-small {
     display: none;
   }
-}
+} */
 
 figure {
   width: 180px;

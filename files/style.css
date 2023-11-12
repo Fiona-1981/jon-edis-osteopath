@@ -1,0 +1,342 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  float: left;
+}
+
+h4 {
+  padding: 5px;
+}
+
+.main-article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.main-article-gallery {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a.link-on-white {
+  text-decoration: underline;
+  color:black;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards-greenwich {
+  height: auto;
+  border-style: outset;
+  border-width: 0px;
+  width: 900px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-image: url("../lecturing-images/wa0026-crop.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; */
+}
+
+/* .cards-about {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+} */
+/* 
+.cards-what-is {
+  height: 300px;
+  border-style: outset;
+  border-width: 0px;
+  width: 1000px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/at-still.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+} */
+
+.cards-gallery {
+  height: auto;
+  border-style: outset;
+  border-width: 0px;
+  width: 900px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-image: url("../lecturing-images/wa0014-crop.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; */
+}
+
+.cards-lecturing {
+  height: auto;
+  border-style: outset;
+  border-width: 0px;
+  width: 900px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-image: url("../lecturing-images/italy-2023-1.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; */
+}
+
+.cards-contact {
+  height: auto;
+  border-style: outset;
+  border-width: 0px;
+  width: 900px;
+  margin: 10px;
+  color:black;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-image: url("../images/northeast-cutty.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; */
+}
+
+/* @media screen and (max-width: 600px) {
+  .cards-about, 
+  .cards-contact, 
+  .cards-gallery, 
+  .cards-greenwich, 
+  .cards-lecturing,
+  .cards-what-is {
+    background-image: url("../images/northeast-cutty.jpg");
+    background-size: 5cm;
+    
+  }
+} */
+
+@media (max-width: 800px) {
+  .flex-container {
+    width: 95%;
+  }
+  .cards-greenwich,
+  .cards-about,
+  .cards-contact,
+  .cards-gallery,
+  .cards-lecturing,
+  .cards-what-is {
+    width: 95%;
+  }
+  .menu {
+    display:grid;
+  }
+}
+
+.cards:hover {
+  opacity: 0.6;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .large-logos, .portrait-large {
+    display: none;
+  }
+  }
+
+@media screen and (min-width: 651px) {
+  .small-logos, .portrait-small {
+    display: none;
+  }
+}
+
+figure {
+  width: 180px;
+  margin-right: 10px;
+  margin-bottom: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure img {
+  width: 180px;
+  height: 150px;
+  object-fit: cover;
+}
+
+figure img:hover {
+  transform: scale(2.5);
+  transition: ease-in 0.3s;
+  
+}
+
+figcaption {
+  text-align: center;
+  width: 180px;
+  color: black;
+  height: 35px;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+.menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a {
+    display: none;
+  }
+  .menu a.icon {
+    float: right;
+    display: block;
+    font-size: 30px;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(-90deg);
+    transition: ease-in 0.3s;
+  }
+
+
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+li.menu-item {
+  display: inline-block;
+  padding-right: 10px;
+  color:white;
+}
+
+.no-hover:hover {
+  opacity: 1;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.top-header {
+  margin-left: 35px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  background-color: gray;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  opacity: 0.6;
+} 
+
+.fa {
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer {
+  padding: 50px;
+  background-color: gray;
+  color: white;
+}
+
+p {
+  padding: 5px;
+}

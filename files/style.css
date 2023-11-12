@@ -179,6 +179,18 @@ a:hover {
   padding: 10px;
 }
 
+@media screen and (max-width: 650px) {
+  .large-logos {
+    display: none;
+  }
+  }
+
+@media screen and (min-width: 651px) {
+  .small-logos {
+    display: none;
+  }
+}
+
 figure {
   width: 180px;
   margin-right: 10px;

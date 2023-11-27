@@ -238,6 +238,18 @@ ul.menu {
 }
 
 @media screen and (max-width: 600px) {
+  .royal-hill {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .royal-hill-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .menu a {
     display: none;
   }

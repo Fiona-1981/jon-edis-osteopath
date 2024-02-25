@@ -74,7 +74,7 @@ class Header extends HTMLElement {
         <a class="no-hover" href="../index.html">
         <img class="logo" src="../logos/je-logo.gif" alt="Jonathan Edis Logo">
         <h1>JONATHAN EDIS OSTEOPATH</h1>
-        <h3>BSc, PgCAP, FHEA</h3>
+        <h3>BSc, PGCAP, FHEA</h3>
         <h2>Osteopathy & Osteopathic Lecturing</h2>
         </a>
         <ul class="menu" id="myTopnav">

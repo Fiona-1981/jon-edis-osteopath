@@ -219,7 +219,6 @@ figure img {
 figure img:hover {
   transform: scale(2.5);
   transition: ease-in 0.3s;
-  
 }
 
 figcaption {
@@ -237,17 +236,18 @@ ul.menu {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .royal-hill {
-    display: none;
+    transform: scale(0.5);
+    transform-origin: left;
   }
 }
 
-@media screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) {
   .royal-hill-small {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 600px) {
   .menu a {

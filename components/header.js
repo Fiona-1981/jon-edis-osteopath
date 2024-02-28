@@ -84,7 +84,10 @@ class Header extends HTMLElement {
         
         <li class="menu-item"><a href="gallery.html">Gallery</a></li>
         
-        <li class="menu-item"><a href="contact.html" style="font-weight: bold; text-decoration: underline;">BOOK NOW</a></li>
+        <li class="menu-item"><a href="contact.html">Contact Details</a></li>
+        <li class="menu-item">
+          <script id='setmore_script' type='text/javascript' src='https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js'></script><a target="_blank" style='float:none;' id='Setmore_button_iframe' href='https://booking.setmore.com/scheduleappointment/eee6e26f-97d1-405b-9ec0-1b5009d370aa'><img border='none' src='https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.svg' alt='Click here to book the appointment using setmore' /></a>
+        </li>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>

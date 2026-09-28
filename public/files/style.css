@@ -56,41 +56,8 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background-image: url("../lecturing-images/wa0026-crop.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain; */
 }
 
-/* .cards-about {
-  height: 300px;
-  border-style: outset;
-  border-width: 0px;
-  width: 1000px;
-  margin: 10px;
-  color:black;
-  background-color:white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../images/portrait.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-} */
-/* 
-.cards-what-is {
-  height: 300px;
-  border-style: outset;
-  border-width: 0px;
-  width: 1000px;
-  margin: 10px;
-  color:black;
-  background-color:white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("../images/at-still.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-} */
 
 .cards-gallery {
   height: auto;
@@ -101,10 +68,6 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background-image: url("../lecturing-images/wa0014-crop.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain; */
 }
 
 .cards-lecturing {
@@ -116,10 +79,6 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background-image: url("../lecturing-images/italy-2023-1.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain; */
 }
 
 .cards-contact {
@@ -131,44 +90,22 @@ a:hover {
   color:black;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background-image: url("../images/northeast-cutty.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain; */
 }
 
-/* @media screen and (max-width: 600px) {
-  .cards-about, 
-  .cards-contact, 
-  .cards-gallery, 
-  .cards-greenwich, 
-  .cards-lecturing,
-  .cards-what-is {
-    background-image: url("../images/northeast-cutty.jpg");
-    background-size: 5cm;
-    
-  }
-} */
 
 @media (max-width: 800px) {
   .flex-container {
     width: 95%;
   }
   .cards-greenwich,
-  .cards-about,
   .cards-contact,
   .cards-gallery,
-  .cards-lecturing,
-  .cards-what-is {
+  .cards-lecturing {
     width: 95%;
   }
   .menu {
     display:grid;
   }
-}
-
-.cards:hover {
-  opacity: 0.6;
 }
 
 .gallery {
@@ -178,30 +115,7 @@ a:hover {
   background-color: white;
   padding: 10px;
 }
-/* 
-@media (max-width: 650px) {
-  .large-logos {
-    display: none;
-  }
-  }
 
-@media (min-width: 651px) {
-  .small-logos {
-    display: none;
-  }
-} */
-
-/* @media (max-width: 650px) {
-  .portrait-large {
-    display: none;
-  }
-  }
-
-@media (min-width: 651px) {
-  .portrait-small {
-    display: none;
-  }
-} */
 
 figure {
   width: 180px;
@@ -243,11 +157,6 @@ ul.menu {
   }
 }
 
-/* @media only screen and (min-width: 601px) {
-  .royal-hill-small {
-    display: none;
-  }
-} */
 
 @media screen and (max-width: 600px) {
   .menu a {

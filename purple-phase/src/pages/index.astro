@@ -1,11 +1,71 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout
+	title="Jonathan Edis Osteopath"
+	description="Jonathan Edis Osteopath is my private osteopathy practice based in Greenwich, London, UK. I am registered with the General Osteopathic Council."
+>
+	<div class="flex-container">
+		<a href="/files/osteopathy-greenwich.html" class="cards-greenwich">
+			<h4>Osteopathy for Adults in Greenwich, UK</h4>
+
+				<p>Osteopathy is a system of diagnosis & treatment for a wide range of medical conditions. It's based on the
+				principle that well-being depends on the skeleton, muscles, ligaments & connective tissues functioning smoothly together.
+			<img src="/lecturing-images/wa0026-crop.jpg" alt="Osteopathy in practice"
+			style="float: right; width: 200px; border-radius: 5px; margin-bottom: 5px;">
+
+			</p>
+			<p>Read more...</p>
+
+			<!-- <ul>
+				<li>BSc (Hons) Osteopathy</li>
+				<li>Osteopath since 2001</li>
+				<li>Registered with the General Osteopathic Council (GOsC)</li>
+				<li>Registration Number: 4616</li>
+				<li>Specialising in the osteopathic treatment of musculoskeletal problems for adults</li>
+			</ul> -->
+		</a>
+		<a href="/files/osteopathic-lecturing.html" class="cards-lecturing">
+			<h4>Osteopathic Lecturing in the UK & Europe</h4>
+			<p>I offer independent, post-graduate lectures, courses & workshops, in the UK & internationally,
+				on aspects of osteopathy.
+			<img src="/lecturing-images/italy-2023-1.jpg" alt="Osteopathy in practice"
+			style="float: right; width: 200px; border-radius: 5px; margin-bottom: 5px;">
+		</p>
+		<p>Read more...</p>
+			<!-- <ul>
+				<li>PGCAP, FHEA</li>
+				<li>UK continuous professional development (CPD) & international lecturer since 2010</li>
+				<li>Online/face-to-face lectures & face-to-face workshops</li>
+				<li>Specialising in Still Technique</li>
+			</ul> -->
+		<!-- </a>
+		<a href="./files/what-is.html" class="cards-what-is">
+			<h4>What is Osteopathy?</h4>
+			<p>Some introductory text here...</p>
+			<p>Read more...</p>
+		</a>
+		<a href="./files/about-me.html" class="cards-about">
+			<h4>About Me</h4>
+			<p>Some introductory text here...</p>
+			<p>BSc, BA, FHEA, Registered Osteopath 4616</p>
+			<p>Read more...</p>
+			<img src="./images/portrait.jpg" class="home-images" width="181.67" height="231.33" alt="Photograph of Jonathan Edis."> -->
+		</a>
+		<a href="/files/gallery.html" class="cards-gallery">
+			<h4>Gallery</h4>
+			<p>For a flavour of my workshops, take a look at the gallery...
+				<img src="/lecturing-images/wa0014-crop.jpg" alt="Osteopathy in practice"
+			style="float: right; width: 200px; border-radius: 5px; margin-bottom: 5px;">
+			</p>
+		</a>
+		<a href="/files/contact.html" class="cards-contact">
+			<h4>Contact Me</h4>
+			<p>Get in touch and book here!
+				<img src="/images/northeast-cutty.jpg" alt="Osteopathy in practice"
+			style="float: right; width: 200px; border-radius: 5px; margin-bottom: 5px;">
+			</p>
+		</a>
+	</div>
 </Layout>
